@@ -21,6 +21,7 @@ void setup() {
   generator.insert(make_pair(0, u8"Dạng số"));
   generator.insert(make_pair(1, u8"Dạng xâu"));
   generator.insert(make_pair(2, u8"Dạng mảng"));
+  generator.insert(make_pair(3, u8"Dạng mảng hai chiều"));
 }
 // END
 
@@ -43,7 +44,7 @@ int main() {
   }
 
   string option;
-  cout << u8"Chọn một số (0, 1, 2): ";
+  cout << u8"Chọn một số (0, 1, 2, 3): ";
   cin >> option;
 
   cout << u8"Chờ mình tí nha..." << endl;
@@ -60,6 +61,10 @@ int main() {
     string command = "g++ " + solve_code;
     system(command.c_str());
     sinhtestARRAY();
+  } else if (option == "3") {
+    string command = "g++ " + solve_code;
+    system(command.c_str());
+    sinhtestARRAY2D();
   } else {
     cout << u8"Chọn lại nha, mình không biết chọn cái nào hết á..." << endl;
   }
