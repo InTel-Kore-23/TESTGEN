@@ -40,7 +40,7 @@ Nhập tên của từng mảng, kích thước và giới hạn phần tử (Vi
 ```
 thì bạn đầu tiên nhập tên mảng (1 chữ thôi nha) xong rồi nhập kích thước tối đa của mảng, ví dụ N <= 10^9 thì bạn nhập 100000000 vào, rồi nhập giá trị tối đa với tối thiểu của phần tử (ở đây là A[i]), rồi bạn chờ chút đễ nó tạo test, xong rồi thì nộp cho thầy y trên thôi nha.
 
-Video hướng dẫn: https://github.com/InTel-Kore-23/TESTGEN/blob/main/VideoHuongDan.mp4\
+Video hướng dẫn: https://github.com/InTel-Kore-23/TESTGEN/blob/main/VideoHuongDan.mp4
 
 Hết gòi, mấy cái kia mấy bạn tự hiểu nha, có gì k bt Ib mình =)))
 \
