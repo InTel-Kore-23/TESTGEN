@@ -1,6 +1,6 @@
 # Một chiếc app sinh test đơn giản giúp cứu rỗi khỏi mấy bài sinh test của thầy Như.
 ## 1.1 How to dùng???
-**Chạy cái file windows.bat đi rồi tui sẽ hướng dẫn tân tâm =))**
+**Chạy cái file windows.bat đi rồi tui sẽ hướng dẫn tận tâm =))**
 Sinh được test đơn giản thôi chứ mấy bài ITMO hay Tin Học Trẻ 100% đuối :)))))
 ## ...
 ...
