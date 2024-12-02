@@ -46,14 +46,14 @@ int sinhtestSTR() {
     cout << u8"Thầy đòi bạn bao nhiêu bộ test? (Mặc định là " << botestChuoi << ") : ";
     cin >> botestChuoi;
 
-    cout << u8"Cho ki tu bat dau va ki tu ket thuc? (Vi du 'a' den 'Z') : ";
+    cout << u8"Cho ki tu bat dau va ki tu ket thuc? (Ví dụ 'a' den 'Z') : ";
     cin >> kiTuBatDau >> kiTuKetThuc;
 
     int giatri;
     cout << u8"Trong bộ test bạn cần bao nhiêu giá trị? : ";
     cin >> giatri;
 
-    cout << u8"Nhập từng tên xâu và giới hạn của nó (Vi du 'S MAX MIN') : ";
+    cout << u8"Nhập từng tên xâu và giới hạn của nó (Ví dụ 'S MAX MIN') : ";
     for (int i = 0; i < giatri; ++i) {
         char name;
         int maxlen = 0, minlen = 0;

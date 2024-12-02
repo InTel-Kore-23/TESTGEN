@@ -48,7 +48,7 @@ int sinhtestARRAY2D() {
     cout << u8"Trong bộ test bạn cần bao nhiêu giá trị? : ";
     cin >> giatri;
 
-    cout << u8"Nhập tên của từng mảng, kích thước và giới hạn phần tử (Vi du 'A 10 1000 -1000') : ";
+    cout << u8"Nhập tên của từng mảng, kích thước và giới hạn phần tử (Ví dụ 'A 10 1000 -1000') : ";
     for (int i = 0; i < giatri; ++i) {
         char name;
         int maxsize, maxlim = 0, minlim = 0;
