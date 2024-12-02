@@ -26,7 +26,7 @@ void setup() {
 // END
 
 // User option
-int main() {
+signed main() {
   setup();
 
   cout << u8"Tên bài giải (ví dụ solve.cpp): ";
