@@ -6,3 +6,4 @@ int sinhtestINT();
 int sinhtestSTR();
 int sinhtestARRAY();
 int sinhtestARRAY2D();
+int sinhtestPAIR();

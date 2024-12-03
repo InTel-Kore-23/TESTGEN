@@ -22,6 +22,7 @@ void setup() {
   generator.insert(make_pair(1, u8"Dạng xâu"));
   generator.insert(make_pair(2, u8"Dạng mảng"));
   generator.insert(make_pair(3, u8"Dạng mảng hai chiều"));
+  generator.insert(make_pair(4, u8"Dạng cặp 2 số (có thêm M)"));
 }
 // END
 
@@ -65,6 +66,10 @@ signed main() {
     string command = "g++ " + solve_code;
     system(command.c_str());
     sinhtestARRAY2D();
+  } else if (option == "4") {
+    string command = "g++ " + solve_code;
+    system(command.c_str());
+    sinhtestPAIR();
   } else {
     cout << u8"Chọn lại nha, mình không biết chọn cái nào hết á..." << endl;
   }
