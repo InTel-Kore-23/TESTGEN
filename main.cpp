@@ -30,7 +30,7 @@ void setup() {
 signed main() {
   setup();
 
-  cout << u8"Tên bài giải (ví dụ solve.cpp): ";
+  cout << u8"Tên bài giải (Ví dụ solve.cpp): ";
   cin >> solve_code;
 
   if (!fopen(solve_code.c_str(), "r")) {
